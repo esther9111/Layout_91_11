@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: darksalmon;
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 12px;
+    margin: 8px;
+}
+
+.buah {
+    background-color: #192064;
+    padding: 1px 10px;
+    margin: 10px;
+}
+
+.buah ol {
+    padding-left: 20px;
+}
+
+.buah li {
+    background-color: antiquewhite;
+    color: #4c3d19;
+    padding: 4px;
+    margin-bottom: 3px;
+}
+
+.buah li:hover {
+    background-color: #d6b66b;
+    color: #192064;
+}
+
+.lorem {
+    background-color: #192064;
+    padding: 1px 10px;
+    margin: 10px;
+}
+
+.lorem ul {
+    padding-left: 10px;
+}
+
+.lorem li {
+    background-color: #e4eeee;
+    color: #4c3d19;
+    padding: 4px;
+    margin-bottom: 3px;
+}
+
+.lorem li:hover{
+    background-color: lightcoral;
+}
+.icon {
+    background-color: #192064;
+    padding: 1px 10px;
+    margin: 10px;
+}
+
+.icon ul {
+    padding-left: 20px;
+}
+
+.icon li {
+    background-color: #cadfe0;
+    color: #192064;
+    padding: 4px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+}
+.icon li:hover{
+    background-color: lightcoral;
+}
+li::marker {
+    color: #cadfe0;
+}
